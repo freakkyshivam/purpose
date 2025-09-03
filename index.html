@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #000;
+    }
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-top: 10rem;
+    }
+    h1{
+       font-family: 'Patrick Hand', cursive !important;
+        margin: 10px;
+        color: #ffff;
+        z-index: 10000;
+        background: transparent;
+    }
+
+    h2{
+       font-family: 'Patrick Hand', cursive !important;
+        margin: 10px;
+        color: rgb(234, 132, 149);
+        z-index: 10000;
+        background: transparent;
+    }
+
+    button{
+        padding: 15px ;
+        border-radius: 5px;
+        box-shadow: 1px 2px 10px ;
+        border: none;
+        background: #f4f4f4;
+    }
+
+   
+</style>
+<body>
+    <div id="main">
+         <h1 class="heading">Hello ... I want to say  something ! </h1>
+         <h2 class="cele"></h2>
+    <button class="btn">Click and see magic</button>
+    </div>
+
+   
+   
+</body>
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@3/tsparticles.preset.fireworks.bundle.min.js"></script>
+</html>
