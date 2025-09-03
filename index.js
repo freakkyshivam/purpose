@@ -7,6 +7,9 @@ btn.addEventListener('click', ()=>{
 
     setTimeout(() => {
             cele.innerText = "Now celebrate...... 👻"
+            const sound = new Audio("./Mann Mera Unplugged-(Mr-Jat.in).mp3");
+            sound.play();
+
     }, 4000);
 
     var duration = 2 * 1000;
